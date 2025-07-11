@@ -36,7 +36,7 @@ increase accuracy, and improve overall productivity.
 ### Task 1: Install Power Automate Desktop
 
 1.  Sign in with your Admin tenant credentials to Power Automate using
-    +++<https://make.powerautomate.com/+++>. Click **My flows** from the
+    +++https://make.powerautomate.com/+++. Click **My flows** from the
     left pane and then click **Desktop flows**.
 
 - ![](./media/image1.png)
@@ -170,7 +170,7 @@ increase accuracy, and improve overall productivity.
 
 1.  We will add Exception handling to handle scenarios like some window
     is not available or any UI click event failure and so on. Create a
-    Subflow by clicking on **SubFlows 🡪 New subflow**.
+    Subflow by clicking on **SubFlows --> New subflow**.
 
 - ![](./media/image22.png)
 
