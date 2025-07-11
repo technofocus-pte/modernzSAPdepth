@@ -191,7 +191,7 @@ increase accuracy, and improve overall productivity.
 | Property   | Value                                                                 |
 |------------|-----------------------------------------------------------------------|
 | Variable   | Click on NewVar, select the x symbol and select the output variable – Processingresults |
-| Value      | +++## Exception ## - %LastError%+++                                   |
+| Value      | +++#Exception# - %LastError%+++                                   |
 
 
 ![](./media/image25.png)
@@ -216,7 +216,7 @@ Exercise 3: Add a subflow to logon to SAP Fiori
 
 Task 1: Create Subflow and Actions to the Logon_subflow
 
-1.  Create a Subflow by clicking on **SubFlows 🡪 New subflow**.
+1.  Create a Subflow by clicking on **SubFlows --> New subflow**.
 
 - ![](./media/image28.png)
 
@@ -235,7 +235,7 @@ Task 1: Create Subflow and Actions to the Logon_subflow
 | Property     | Value                                                                                          |
 |--------------|------------------------------------------------------------------------------------------------|
 | Launch mode  | Launch a new instance                                                                          |
-| Initial URL  | +++<https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html+++ |
+| Initial URL  | +++https://sapes5.sapdevcenter.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html+++ |
 | Window state | Normal                                                                                         |
 
 
@@ -448,7 +448,7 @@ execution.
 10. Then, right click on each of the element and rename it for easier
     understanding. The elements will look like below after renaming.
 
-    - +++Manage Products +++
+    - +++Manage Products+++
 
     - +++SupplierID+++
 
