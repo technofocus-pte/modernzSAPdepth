@@ -19,7 +19,7 @@ Microsoft Fabric using low-code tools.
     - Password **- <+++@lab.CloudPortalCredential>(User1).Password+++**
 &nbsp;
 
-2.  From the Fabric homepage, click **+ New workspace**.
+2.  Navigate to the Fabric homepage and click **+ New workspace**.
 
 > ![](./media/image1.png)
 
