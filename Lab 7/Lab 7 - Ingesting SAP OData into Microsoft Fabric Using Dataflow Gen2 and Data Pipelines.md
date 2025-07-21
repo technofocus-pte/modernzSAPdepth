@@ -33,7 +33,7 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image3.png)
 
-6.  Click the Dataflow 2 dropdown and enter the name of Dataflow as
+6.  Click the **Dataflow 2** dropdown and type the name of Dataflow as
     Dataflow_SAP.
 
 > ![](./media/image4.png)
@@ -62,7 +62,7 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image7.png)
 
-11. Select **ProductSet** table and click on the **create** button.
+11. Select **ProductSet** table and click on the **Create** button.
 
 ![](./media/image8.png)
 
@@ -72,7 +72,7 @@ Microsoft Fabric using low-code tools.
 
 **Task 2: Create Lakehouse Destination**
 
-1.  From the left menu, click Workspace_SAP to return to the workspace.
+1.  From the left menu, click **Workspace_SAP** to return to the workspace.
 
 > ![](./media/image10.png)
 
@@ -80,11 +80,11 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image11.png)
 
-3.  Name it SAP_Lakehouse and click **Create**.
+3.  Enter the lakehouse name as **SAP_Lakehouse** and click **Create**.
 
 > ![](./media/image12.png)
 
-4.  Go back to Dataflow_SAP and open it.
+4.  Go back to **Dataflow_SAP** and open it.
 
 > ![](./media/image13.png)
 
@@ -96,12 +96,12 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image15.png)
 
-7.  In the **Connection name** field, enter SAPLakehouse, then click
+7.  In the **Connection name** field, enter **SAPLakehouse**, then click
     **Next**.
 
 > ![](./media/image16.png)
 
-8.  Select Workspace_SAP → SAP_Lakehouse, then click **Next**.
+8.  Select **Workspace_SAP → SAP_Lakehouse**, then click **Next**.
 
 > ![](./media/image17.png)
 
