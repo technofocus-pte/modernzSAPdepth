@@ -34,7 +34,7 @@ Microsoft Fabric using low-code tools.
 > ![](./media/image3.png)
 
 6.  Click the **Dataflow 2** dropdown and type the name of Dataflow as
-    Dataflow_SAP.
+   **Dataflow_SAP**.
 
 > ![](./media/image4.png)
 
