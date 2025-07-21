@@ -100,22 +100,20 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image16.png)
 
-8.  Select **Workspace_SAP**, then click **Next**.
+8.  Select **Workspace_SAP -> SAP_Lakehouse**, then click **Next**.
 
 > ![](./media/image17.png)
 
-9.  Turn off **Use automatic settings**.
-
-10. Choose the **Append** option and click **Save settings**.
+9.  Turn off **Use automatic settings**, choose the **Append** option and click **Save settings**.
 
 > ![](./media/image18.png)
 
-11. Click **View** → **Diagram view** to visualize the flow and confirm
+10. Click **View** → **Diagram view** to visualize the flow and confirm
     the Lakehouse is connected.
 
 > ![](./media/image19.png)
 
-12. Navigate to the **Home page** and select **Publish**.
+11. Navigate to the **Home page** and select **Publish**.
 
 > ![](./media/image20.png)
 
