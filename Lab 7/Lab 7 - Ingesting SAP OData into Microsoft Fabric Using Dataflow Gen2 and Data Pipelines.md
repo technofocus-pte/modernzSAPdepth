@@ -139,7 +139,7 @@ Microsoft Fabric using low-code tools.
 > ![](./media/image24.png)
 
 5.  Go to **Settings**, click on the **Dataflow** field, and choose
-    Dataflow_SAP.
+   **Dataflow_SAP**.
 
 > ![](./media/image25.png)
 
