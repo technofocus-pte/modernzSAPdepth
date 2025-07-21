@@ -100,7 +100,7 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image16.png)
 
-8.  Select **Workspace_SAP -> SAP_Lakehouse**, then click **Next**.
+8.  Select **Workspace_SAP → SAP_Lakehouse**, then click **Next**.
 
 > ![](./media/image17.png)
 
