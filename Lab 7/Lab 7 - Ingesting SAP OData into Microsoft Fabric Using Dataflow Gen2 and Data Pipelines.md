@@ -121,7 +121,7 @@ Microsoft Fabric using low-code tools.
 
 **Task 3: Create and Execute Data Pipeline**
 
-1.  Return to Workspace_SAP.
+1.  Navigate to **Workspace_SAP**.
 
 > ![](./media/image21.png)
 
