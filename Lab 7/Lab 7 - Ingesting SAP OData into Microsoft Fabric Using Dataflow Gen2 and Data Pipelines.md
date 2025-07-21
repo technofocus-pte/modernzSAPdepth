@@ -23,7 +23,7 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image1.png)
 
-3.  Enter the name Workspace_SAP and click **Apply**.
+3.  Enter the name **Workspace_SAP** and click **Apply**.
 
 > ![](./media/image2.png)
 
