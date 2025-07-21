@@ -96,12 +96,11 @@ Microsoft Fabric using low-code tools.
 
 > ![](./media/image15.png)
 
-7.  In the **Connection name** field, enter **SAPLakehouse**, then click
-    **Next**.
+7.  Click **Next**.
 
 > ![](./media/image16.png)
 
-8.  Select **Workspace_SAP → SAP_Lakehouse**, then click **Next**.
+8.  Select **Workspace_SAP**, then click **Next**.
 
 > ![](./media/image17.png)
 
