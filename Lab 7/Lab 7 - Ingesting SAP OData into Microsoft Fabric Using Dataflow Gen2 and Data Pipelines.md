@@ -11,11 +11,11 @@ Microsoft Fabric using low-code tools.
 
 ## Task 1: Create Workspace and Dataflow Gen2
 
-1.  Login to Azure portal at +++<https://portal.azure.com/+++> with your
+1.  Login to Azure portal at +++https://portal.azure.com/+++ with your
     credentials.
 
-    - Username **- <+++@lab.CloudPortalCredential>(User1).Username+++**  
-    - Password **- <+++@lab.CloudPortalCredential>(User1).Password+++**
+    - Username - **+++@lab.CloudPortalCredential>(User1).Username+++**  
+    - Password - **+++@lab.CloudPortalCredential>(User1).Password+++**
 
 2.  Navigate to the Fabric homepage and click **+ New workspace**.
 
@@ -47,7 +47,7 @@ Microsoft Fabric using low-code tools.
 
 9.  Provide the following:
 
-    - **URL**: **+++https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC+++>**
+    - **URL**: **+++https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC+++**
 
     - **Authentication**: Basic
 
@@ -163,3 +163,4 @@ Lakehouse destination and a Data Pipeline to orchestrate and manage data
 ingestion from SAP into Fabric. This hands-on experience demonstrates
 how Microsoft Fabric simplifies enterprise data integration and
 processing using low-code tools for SAP and other enterprise systems.
+
