@@ -20,13 +20,13 @@ and make updates directly from a Power Apps canvas app.
 
 **The key challenges addressed include:**
 
-1.  **Manual Updates**: Product information updates in SAP are currently
-    labour-intensive and prone to error, resulting in outdated or
-    incorrect data.
+- **Manual Updates**: Product information updates in SAP are currently
+  labour-intensive and prone to error, resulting in outdated or
+  incorrect data.
 
-2.  **Inefficiency in Data Access:** Users must navigate multiple
-    systems to access and update product information, leading to delays
-    in the process.
+- **Inefficiency in Data Access:** Users must navigate multiple
+  systems to access and update product information, leading to delays
+  in the process.
 
 To address these challenges, Contoso Electronics will implement an
 integrated solution using Power Apps, Power Automate, and a custom OData
@@ -478,4 +478,5 @@ information, and created a Power Automate flow to automate product
 updates. The lab concluded with testing the app and flow, verifying
 updates in the SAP Fiori Launchpad, and equipping participants with key
 skills for SAP-Power Platform integration.
+
 
