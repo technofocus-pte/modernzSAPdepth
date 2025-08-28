@@ -142,7 +142,7 @@ allow customers to:
 
     > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%202/media/image19.png)
 
-    > [!note]** If the **Properties** window does not appear on the right
+    > [!note]**Note**: If the **Properties** window does not appear on the right
     > side, you can easily access it by clicking on the **Properties**
     > button located in the top bar. This action will open the
     > **Properties** window, allowing you to view and modify the relevant
@@ -611,3 +611,4 @@ participants created an order summary screen, added customer information
 input fields, and implemented a submission process using Power Apps
 tables. Finally, they tested the app by searching and adding products to
 the cart, enhancing their skills in Power Apps and SAP integration.
+
