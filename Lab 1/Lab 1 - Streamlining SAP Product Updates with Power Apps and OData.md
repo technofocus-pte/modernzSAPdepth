@@ -32,7 +32,7 @@ To address these challenges, Contoso Electronics will implement an
 integrated solution using Power Apps, Power Automate, and a custom OData
 connector to automate the retrieval and updating of product data in SAP.
 
-### Estimated Time: 45 min
+**Estimated Time**: 45 min
 
 ## Exercise 1: Create an SAP Account
 
@@ -148,8 +148,6 @@ connector to automate the retrieval and updating of product data in SAP.
 ## Exercise 2: Create a Custom Connector (OData connection)
 
 ### Task 1: Sign Up for Microsoft Power Apps 
-
- 
 
 1.  Open your web browser and navigate to the
     +++https://powerapps.microsoft.com/free/+++ page. 
@@ -295,7 +293,7 @@ connector to automate the retrieval and updating of product data in SAP.
 7.  Select the formula under **DATA -\> Items**. Replace the formula
     with the below one.
 
-- +++SortByColumns(zProducts, “Name”)+++
+    +++SortByColumns(zProducts, “Name”)+++
 
     > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%201/media/image42.png)
 
@@ -318,8 +316,8 @@ connector to automate the retrieval and updating of product data in SAP.
     update to the Price and click on the Tick mark. When clicked, we get
     an error message,
 
-- > TODO: Fix the “OnSelect” formula to invoke a flow. This is because
-  > we have not defined UpdateButton yet.
+    > TODO: Fix the “OnSelect” formula to invoke a flow. This is because
+    > we have not defined UpdateButton yet.
 
     > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%201/media/image46.png)
 
@@ -480,3 +478,4 @@ information, and created a Power Automate flow to automate product
 updates. The lab concluded with testing the app and flow, verifying
 updates in the SAP Fiori Launchpad, and equipping participants with key
 skills for SAP-Power Platform integration.
+
