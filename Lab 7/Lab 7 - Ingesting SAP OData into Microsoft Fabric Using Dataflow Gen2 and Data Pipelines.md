@@ -25,7 +25,7 @@ Microsoft Fabric using low-code tools.
 
     > ![](https://github.com/technofocus-pte/modernzSAPdepth/blob/main/Lab%207/media/image2.png?raw=true)
 
-4.  Inside Workspace_SAP, click **+ New Item**.
+4.  Inside Workspace_SAP@lab.LabInstance.Id, click **+ New Item**.
 
 5.  In the search bar, type **+++Dataflow+++**, then select **Dataflow Gen2**.
 
@@ -105,7 +105,7 @@ Microsoft Fabric using low-code tools.
 
 9.  Turn off **Use automatic settings**, choose the **Append** option and click **Save settings**.
 
-    > ![]!IMAGE[ChooseDestinationSettings.jpg](instructions302579/ChooseDestinationSettings.jpg)
+    > ![ChooseDestinationSettings.jpg](instructions302579/ChooseDestinationSettings.jpg)
 
 10. Click **View** → **Diagram view** to visualize the flow and confirm
     the Lakehouse is connected.
@@ -114,13 +114,13 @@ Microsoft Fabric using low-code tools.
 
 11. Navigate to the **Home page** and select **Save & run**.
 
-    > ![]!IMAGE[Saveandrun.jpg](instructions302579/Saveandrun.jpg)
+    > ![Saveandrun.jpg](instructions302579/Saveandrun.jpg)
 
 ------------------------------------------------------------------------
 
 ## Task 3: Create and Execute Data Pipeline
 
-1.  Navigate to **Workspace_SAP**.
+1.  Navigate to **Workspace_SAP@lab.LabInstance.Id**.
 
     > ![](https://github.com/technofocus-pte/modernzSAPdepth/blob/main/Lab%207/media/image21.png?raw=true)
 
@@ -163,4 +163,3 @@ Lakehouse destination and a Data Pipeline to orchestrate and manage data
 ingestion from SAP into Fabric. This hands-on experience demonstrates
 how Microsoft Fabric simplifies enterprise data integration and
 processing using low-code tools for SAP and other enterprise systems.
-
