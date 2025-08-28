@@ -1,6 +1,6 @@
 # Lab 5 - Automating Product Info and Pricing Updates in SAP Using Microsoft Copilot Studio
 
-## Objective
+**Objective**
 
 Develop a lab use case for Contoso Electronics to streamline product
 information retrieval and price updates in SAP using Microsoft Copilot
@@ -9,7 +9,7 @@ operations team to efficiently query product data, update prices, and
 test these updates in SAP, enabling faster decision-making and
 operational improvements.
 
-## Solution Focus Area
+**Solution Focus Area**
 
 Contoso Electronics is continuously updating its product catalogue and
 prices based on market trends and promotions. However, the manual
@@ -34,7 +34,7 @@ To address these challenges, Contoso will use Microsoft Copilot Studio
 integrated with an Agent to automate SAP queries and updates, ensuring
 accuracy and efficiency in operations.
 
-### Estimated Time : 45 min
+**Estimated Time**: 45 min
 
 ## Exercise 1: Create and Configure Agent
 
@@ -44,58 +44,58 @@ accuracy and efficiency in operations.
     +++https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio+++
     and click on **Sign in** button.
 
-> ![](./media/image1.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image1.png)
 
 2.  Enter the **Admin tenant login ID** and click on the **Next**
     button.
 
-> ![](./media/image2.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image2.png)
 
 3.  Enter the **Admin tenant Password** and click on the **Sign In**
     button.
 
-> ![](./media/image3.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image3.png)
 
 4.  Select **yes** for the Stay sign-in with credentials.
 
-> ![](./media/image4.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image4.png)
 
 ### Task 2: Create an Agent with Gen AI Capabilities
 
 1.  Open Copilot studio and from the top environment sections select the
     **Dev One** environment.
 
-> ![](./media/image5.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image5.png)
 
 2.  Click the **Create** button from the left navigation bar and select
     the **+ New Agent** option to create an agent.
 
-> ![](./media/image6.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image6.png)
 
 3.  Click on the **Skip to configure** and start the manual
     configuration of agent.
 
-> ![](./media/image7.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image7.png)
 
 4.  Enter the following details in the respective fields and click the
     **Create** button.
 
-    1.  **Name:** +++SAP Product Agent+++
+    -  **Name:** +++SAP Product Agent+++
 
-    2.  **Description:** +++The Agent allows you to integrate the SAP
+    -  **Description:** +++The Agent allows you to integrate the SAP
         system and fetch product information live from SAP and update
         the price of products.+++
 
-    3.  **Instructions:** +++The agent must check the available product
+    -  **Instructions:** +++The agent must check the available product
         in the SAP system and provide the product information as per the
         requirement, and update the price of the product.+++
 
-> ![](./media/image8.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image8.png)
 
 5.  Click on **Overview** and check whether **Orchestration** is
     enabled. It is enabled by default, but if it is disabled, enable it.
 
-> ![](./media/image9.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image9.png)
 
 6.  Click on **Settings** from the top right corner and then select the
     **Generative AI** option. In the Generative AI setting, go to the
@@ -103,7 +103,7 @@ accuracy and efficiency in operations.
     content moderation level to **moderate**. After this, click on the
     **Save** button.
 
-> ![](./media/image10.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image10.png)
 
 ## Exercise 2: Create Agent Flow for SAP Integration
 
@@ -112,172 +112,176 @@ accuracy and efficiency in operations.
 1.  Then go back to the overview section of Agent and select **Tools**
     from the top bar. After this, click **+Add a tool** button.
 
-> ![](./media/image11.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image11.png)
 
 2.  Click on the **+ New tool** and then select **Agent flow.**
 
-> ![](./media/image12.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image13.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image12.png)
+
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image13.png)
 
 3.  Click on the **Save draft** button to save the flow, and then click
     on the **Overview** tab to change the name of the flow.  
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image14.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image14.png)
 4.  Click on the **Edit** button. Rename the flow as +++SAP Product
     Category+++. Then click on the **Save** button to save the name of
     the flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image15.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image15.png)
 
 5.  Click on the **Designer** tab and then click on **When an agent
     calls the flow**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image16.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image16.png)
 
 6.  Click on **+Add an input**, then select **Text** as an input type.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image17.png)![A screenshot of a computer
-> AI-generated content may be incorrect.](./media/image18.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image17.png)
+	
+	> ![A screenshot of a computer
+    > AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image18.png)
 
 7.  Enter +++**Product Input**+++ in the input section.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image19.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image19.png)
 
 8.  Click on the **+** sign, search for the **SAP OData** and select
     **Query OData entities.**
 
-> ![](./media/image20.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image20.png)
 
 9.  Enter the following details in the **Create connection** section and
     then click on the **Create new** button.
 
-    1.  **Connection Name:** +++SAP-Product-100+++
+    -  **Connection Name:** +++SAP-Product-100+++
 
-    2.  **Authentication Type:** Basic
+    -  **Authentication Type:** Basic
 
-    3.  **OData Base URL:**
-        +++https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC+++
+    -  **OData Base URL:**
+       +++https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC+++
 
-    4.  **User Name:** Enter the ES5 SAP User ID which we created in Lab
+    -  **User Name:** Enter the ES5 SAP User ID which we created in Lab
 
-    5.  **Password:** Enter the ES5 SAP Password which we created in Lab
+    -  **Password:** Enter the ES5 SAP Password which we created in Lab
 
-> ![](./media/image21.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image21.png)
 
 10. In **OData Entity Name,** select **Productset** and then click on
     **Show all.**
 
-> ![](./media/image22.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image22.png)
 
 11. In the **$Top** section, enter **10**, which will return the top 10
     products.
 
-> ![](./media/image23.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image23.png)
 
 12. Click on the **Respond to the agent** option and click on **Add an
     output** option.
 
-> ![](./media/image24.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image24.png)
 
 13. Select **Text** as the type of output.
 
-> ![](./media/image25.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image25.png)
 
 14. Enter +++**Product Output**+++ as the output name and then enter the
     +++string(body(‘Query_OData_entities’))+++ as the expression value
     of the output with the help of a function. Click on the Add button
     after entering the output query.
 
-> ![](./media/image26.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image26.png)
 
 15. **Save** and **Publish** the flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image27.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image27.png)
 
 15. Navigate back to the **SAP Product Agent** agent and click on
     **Tools**.
 
-> ![](./media/image28.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image28.png)
 
 ### Task 2: Create Agent Flow for Update Product
 
 1.  Click **+Add a tool** button.
 
-> ![](./media/image29.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image29.png)
 
 2.  Click on the **+ New tool** and then select **Agent flow.**
 
-![](./media/image12.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image12.png)
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image30.png)
+    > ![A screenshot of a computer AI-generated content may be
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image30.png)
 
 3.  Click on the **Save draft** button to save the flow, and then click
     on the **Overview** tab to change the name of the flow.  
+	
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image14.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image14.png)
+	
 4.  Click on the **Edit** button. Rename the flow as +++ **Update
     Product Price** +++. Then click on the **Save** button to save the
     name of the flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image31.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image31.png)
 
 5.  Click on the **Designer** tab, then click on **When an agent calls
     the flow**. And then select **+ Add an input.**
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image32.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image32.png)
 
 6.  Select the type of user input as **Text**.
 
-> ![](./media/image33.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image33.png)
 
 7.  Rename the input name as +++**Product ID**+++ .
 
-> ![](./media/image34.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image34.png)
 
 8.  Then again, click on the **+ Add an input**, select **Number** as
     input type and rename the input as +++**Update Price**+++ .
 
-> ![](./media/image35.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image35.png)
 
 9.  Click on the **+** Icon, search for the **SAP OData** and select
     **Update OData entity**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image36.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image36.png)
 
 10. Click on the OData Entity Name and select **ProductSet.**
 
-> ![](./media/image37.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image37.png)
 
 11. In the ProductID sections, select **ProductID** with the help of
     dynamic content.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image38.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image38.png)
 
 12. Click on the **Advanced parameters** and select **Price**.
 
-> ![](./media/image39.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image39.png)
 
 13. In the price parameter, enter **Update Price** with the help of
     dynamic content.
 
-> ![](./media/image40.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image40.png)
 
 14. Click on the **Save draft,** and then click on **Publish**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image41.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image41.png)
 
 ## Exercise 3: Integrate Flow with Copilot studio agent
 
@@ -286,203 +290,179 @@ incorrect.](./media/image30.png)
 1.  Navigate back to the **SAP Product Agent** agent and click on
     **Tools**.
 
-> ![](./media/image28.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image28.png)
 
 2.  Click on **+Add a tool**. Then click on **Flow** and select **SAP
     Product Category** flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image42.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image42.png)
 
 3.  Click on the **Add and configure** button to add the SAP Product
     Category flow.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image43.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image43.png)
 
 4.  Select **Inputs** and click on **Customize**.
 
-> ![](./media/image44.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image44.png)
 
 5.  Click on the **Description** field and enter the following
     description in the field, then click on the **Save** button.
 
-> **Description:** Product Category. One of the following categories can
-> be used. The name has to be exactly like this: Accessories, Notebooks,
-> Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers,
-> Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors,
-> MP3 Players, Camcorders.
+    >[!note] **Description:** Product Category. One of the following categories can
+    > be used. The name has to be exactly like this: Accessories, Notebooks,
+    > Laser Printers, Mice, Keyboards, Mousepads, Scanners, Speakers,
+    > Headsets, Software, PCs, Smartphones, Tablets, Servers, Projectors,
+    > MP3 Players, Camcorders.
 
-![](./media/image45.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image45.png)
 
 6.  Select **Completion** and then choose **Write the response with
     generative AI**. After this, select the **Advanced** option and
     click on the **settings icon** present on the right side to open
     Product Output.
 
-> ![](./media/image46.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image46.png)
 
 7.  Click on the **Description field** and enter the following
     description. After that, click on the **Save** button to save the
     changes.
 
-> **Description:** List of SAP products for a provided product category.
-> Return the result as a table including the following information:
-> ProductID, Category, Name, Description and Price.
+    > **Description:** List of SAP products for a provided product category.
+    > Return the result as a table including the following information:
+    > ProductID, Category, Name, Description and Price.
 
-![A screenshot of a product output AI-generated content may be
-incorrect.](./media/image47.png)
+    > ![A screenshot of a product output AI-generated content may be
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image47.png)
 
 8.  Click on the **Test** Button placed on the top right side and enter
     the prompt +++Notebooks+++ in the respective field. It will return
     the connection request. Click on the **Allow** button to connect.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image48.png)
->
-> ![A screenshot of a chat AI-generated content may be
-> incorrect.](./media/image49.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image48.png)
+
+    > ![A screenshot of a chat AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image49.png)
 
 ### Task 2: Create topic Product Update
 
 1.  Go to the **Topics** for the top bar and click on **Add new topic,**
     and then click on **From** **blank**.
 
-> ![](./media/image50.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image50.png)
 
 2.  Rename the topic as +++**Product Update**+++.
 
-> ![](./media/image51.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image51.png)
 
 3.  In the trigger node, enter the following description.
 
-> +++Update Product, Update Product Price, Update Price, Price Update+++
+    +++Update Product, Update Product Price, Update Price, Price Update+++
 
-- ![](./media/image52.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image52.png)
 
 4.  Below the trigger node, add a **Send a** **Message Node.**
 
-> ![](./media/image53.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image53.png)
 
 5.  Enter the following message in the Message Node:
 
-> +++Thank you for using our service. Please enter **Product ID** and
-> **Update Price** in below given card.+++
+    +++Thank you for using our service. Please enter **Product ID** and **Update Price** in below given card.+++
 
-- ![](./media/image54.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image54.png)
 
 6.  Click on the **+** Sign below the message node and add an **Ask with
     adaptive** **card** node.
 
-> ![](./media/image55.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image55.png)
 
 7.  Click on the Ellipsis icon (…) on the adaptive card and click on the
     **Properties**.
 
-> ![](./media/image56.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image56.png)
 
 8.  Click on the Edit adaptive card, enter the following code, and click
-    on the **Save** button**.** After this, close the adaptive card
+    on the **Save** button. After this, close the adaptive card
     using the Close button at the top.
 
-&nbsp;
-
-
-    {
-    "type": "AdaptiveCard",
-
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-
-    "version": "1.3",
-
-    "body":[
-
-        {
-            "type": "Input.Text",
-
-            "placeholder": "Placeholder text",
-
-            "id": "1",
-
-            "label": "Product ID"
-
-            },
-
+    ```
+	{
+        "type": "AdaptiveCard",
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "version": "1.3",
+        "body":[
             {
-
-                "type": "Input.Number",
-
+                "type": "Input.Text",
                 "placeholder": "Placeholder text",
-
+                "id": "1",
+                "label": "Product ID"
+            },
+            {
+                "type": "Input.Number",
+                "placeholder": "Placeholder text",
                 "id": "2",
-
                 "label": "Updated Price"
-
-                },
-
-                {
-                    "type": "ActionSet",
-
-                    "actions":
-
-                    [
-
-                        {
-
-                            "type": "Action.Submit",
-
-                            "title": "Submit"
-
-                            }
-                            ]
-                            }
-                            ]
-                            }
-
-![](./media/image57.png)
+            },
+            {
+                "type": "ActionSet",
+                "actions": [
+                    {
+                        "type": "Action.Submit",
+                        "title": "Submit"
+                    }
+                ]
+            }
+        ]
+    }
+	```
+	
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image57.png)
 
 9.  The below adaptive card output section is available in the output
     **section 1** Variable. Click on select a variable, and then click
     on **create new** button. A new variable **Var1** is created.
 
-> ![](./media/image58.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image58.png)
 
 10. Repeat the same process for the next output **Var2** is created.
 
-> ![](./media/image59.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image59.png)
 
 11. Go to the variable from the top and select all the right-side check
     boxes for all variables.
 
-- **Note**: If the variable option is not visible, click on the ellipsis
-  icon Next to Save button and then select **Variable**
+    >[!note]**Note**: If the variable option is not visible, click on the ellipsis
+    icon Next to Save button and then select **Variable**
 
-> ![](./media/image60.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image60.png)
 
 12. Below the adaptive card, click on **the +** sign and select **Add an
     action**, then select **Update Product** **Price** flow.
 
-> ![](./media/image61.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image61.png)
 
 13. In the Action, select **Var1** for Product ID and **Var2** for
     Update Price.
 
-> ![](./media/image62.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image62.png)
 
-- ![](./media/image63.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image63.png)
 
 14. Below the Action node, click on the **+** sign and add **Message
     node**. In the message node, enter the following message.
 
-> +++**Product Var1 price is updated. Thankyou.**+++
->
-> Replace **Var1** with Variable **Var1** with the help of {x} button.
->
-> ![](./media/image64.png)
+    +++**Product Var1 price is updated. Thankyou.**+++
+
+14. Replace **Var1** with Variable **Var1** with the help of {x} button.
+
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image64.png)
 
 15. From the top right corner, click on the **Save** button.
 
-> ![](./media/image65.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image65.png)
 
 16. Click on the **Test** button and enter the prompt +++Update
     Price+++. Then fill in the Product ID +++HT-1001+++ and price
@@ -490,66 +470,66 @@ incorrect.](./media/image47.png)
     appears to “Connect to continue”. Click on the **Allow** button. It
     will automatically create connection.
 
-> ![](./media/image66.png)
->
-> ![A screenshot of a chat AI-generated content may be
-> incorrect.](./media/image49.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image66.png)
+
+    > ![A screenshot of a chat AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image49.png)
 
 17. If the connection is not created, then click on the three
     ellipses(…) and select **Manage connections**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image67.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image67.png)
 
 18. It will navigate to another window which manages the connections.
     Click on the **connect** button of Update Product Price.
 
-> ![](./media/image68.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image68.png)
 
 18. Click on the three dots and select connection **SAP-Product-100**,
     then click on the **submit** button.
 
-> ![](./media/image69.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image69.png)
 
 19. After completing, it shows connected.
 
-> ![](./media/image70.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image70.png)
 
 20. Go back to the copilot window and click on the **publish** button to
     save the copilot setting.
 
-> ![](./media/image71.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image71.png)
 
 ## Exercise 4: Test Agent
 
 1.  Click on the **Test** button from the top and then select
     **Refresh**
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image72.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image72.png)
 
 2.  Enter prompt, +++**Give me information about Notebooks+++**
 
-![](./media/image73.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image73.png)
 
 3.  It returns the information about the Notebooks from the SAP System.
 
-> ![](./media/image74.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image74.png)
 
 4.  Then give another prompt, +++**Update price of product.**+++
 
-> ![A screenshot of a software update AI-generated content may be
-> incorrect.](./media/image75.png)
+    > ![A screenshot of a software update AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image75.png)
 
 5.  Now it returns the adaptive card, enter Product ID +++HT-1001+++ and
     in price enter +++1111+++ and then click on the **submit**.
 
-> ![](./media/image76.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image76.png)
 
 6.  After entering the Product ID and Price confirmation message
     appears.
 
-> ![](./media/image77.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image77.png)
 
 7.  To confirm the updation, go to
     +++https://sapes5.sapdevcenter.com/+++, **login** with your SAP User
@@ -557,11 +537,11 @@ incorrect.](./media/image47.png)
     product**. Then in the search bar type +++HT-1001+++ and then click
     go.
 
-> ![](./media/image78.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image78.png)
 
 8.  Now, see the updated price of the product is 1111.
 
-> ![](./media/image79.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%205/media/image79.png)
 
 ### Conclusion
 

@@ -1,4 +1,4 @@
-## Lab 6: Connecting Power BI to SAP OData and Building an Interactive Dashboard
+# Lab 6: Connecting Power BI to SAP OData and Building an Interactive Dashboard
 
 **Introduction:**
 
@@ -11,90 +11,90 @@ cards to build a dynamic dashboard. This hands-on exercise enables you
 to understand how SAP data can be accessed, analyzed, and presented
 through Power BI for informed decision-making.
 
-**Task 1: Launch Power BI Desktop and Sign In**
+### Task 1: Launch Power BI Desktop and Sign In
 
 1.  Click the **Search** bar in Windows and type Power BI Desktop.
 
 2.  Select the **Power BI Desktop App** from the search results.
 
-> ![](./media/image1.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image1.png)
 
 3.  Once Power BI opens, click the **Sign in** button on the top-right
     menu.
 
-> ![](./media/image2.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image2.png)
 
 4.  In the Email field enter m365 admin tenant in the field then click
     on the **Continue** button to proceed.
 
-> ![](./media/image3.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image3.png)
 
 5.  In the login window:
 
-    - Enter your **M365 Admin email (tenant ID)**.
+    Enter your **M365 Admin email (tenant ID)**.
 
-    - Click **Next**.
+    Click **Next**.
 
-> ![](./media/image4.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image4.png)
 
-- Enter your **M365 Admin password**.
+    Enter your **M365 Admin password**.
 
-- Click **Sign in** to continue.
+    Click **Sign in** to continue.
 
-> ![](./media/image5.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image5.png)
 
-**Task 2: Connect to the SAP OData Feed**
+### Task 2: Connect to the SAP OData Feed
 
 1.  After signing in, click **Blank Report** to begin.
 
-> ![](./media/image6.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image6.png)
 
 2.  From the **top ribbon**, click on **Get Data**.
 
 3.  In the Get Data window:
 
-    - Type +++OData+++ in the search bar.
+    Type +++OData+++ in the search bar.
 
-    - Select **OData Feed** and click **Connect**.
+    Select **OData Feed** and click **Connect**.
 
-> ![](./media/image7.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image7.png)
 
 4.  In the URL input:
 
-    - Enter: +++https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC+++
+    Enter: +++https://sapes5.sapdevcenter.com/sap/opu/odata/iwbep/GWSAMPLE_BASIC+++
 
-    - Click **OK**.
+    Click **OK**.
 
-> ![](./media/image8.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image8.png)
 
 5.  In the authentication window:
 
-    - Choose **Basic Authentication**.
+    Choose **Basic Authentication**.
 
-    - Enter the **SAP username and password** you created in **Lab 1**.
+    Enter the **SAP username and password** you created in **Lab 1**.
 
-    - Click **Connect**.
+    Click **Connect**.
 
-> ![](./media/image9.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image9.png)
 
-**Task 3: Load Data from SAP OData**
+### Task 3: Load Data from SAP OData
 
 1.  In the Navigator pane, find and select the table: **SalesOrderSet**.
 
 2.  Click **Load** to import the data into your report.
 
-> ![](./media/image10.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image10.png)
 
-**Task 4: Create Power BI dashboard.**
+### Task 4: Create Power BI dashboard.
 
 1.  In the **Visualizations** pane, click on the **Slicer** icon.
 
-> ![](./media/image11.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image11.png)
 
 2.  From the **Data** section, Select the **CustomerName** column into
     the Slicer.
 
-> ![](./media/image12.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image12.png)
 
 3.  Click on a blank area to **unselect the slicer**.
 
@@ -105,7 +105,7 @@ through Power BI for informed decision-making.
 6.  This will show the **Sum of** **Net Amount** based on all customers
     or selected ones.
 
-> ![](./media/image13.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image13.png)
 
 7.  Click again on a blank area.
 
@@ -113,18 +113,18 @@ through Power BI for informed decision-making.
 
 9.  Select the **TaxAmount** column into this new Card.
 
-> ![](./media/image14.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image14.png)
 
-**Task 5: Test the Interactive Report**
+### Task 5: Test the Interactive Report
 
 1.  In the slicer, **select any Customer Name**.
 
 2.  Observe:
 
-    - The **Net Amount** and **Tax Amount** cards automatically update
-      to reflect the selected customer’s sales data.
+    > The **Net Amount** and **Tax Amount** cards automatically update
+    > to reflect the selected customer’s sales data.
 
-> ![](./media/image15.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%206/media/image15.png)
 
 **Conclusion:**
 
