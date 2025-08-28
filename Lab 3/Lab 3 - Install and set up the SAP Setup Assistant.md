@@ -51,33 +51,33 @@ errors.
     and sign in with the Admin tenant ID. From the top bar in Power
     apps, select the **Dev One** environment.
 
-> ![](./media/image1.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image1.png)
 
 2.  From the left navigation bar click on **More** and select
     **Connections.**
 
-> ![](./media/image2.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image2.png)
 
 3.  From the top bar click on the **+ New Connection.**
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image3.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image3.png)
 
 4.  In the top right search bar, search for +++**Microsoft
     Dataverse**+++ and then select **Microsoft Dataverse**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image4.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image4.png)
 
 5.  Click on the **Create**, to create the connection.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image5.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image5.png)
 
 6.  Then Pick an account window will pop up, select the admin tenant
     account to complete the connection.
 
-- ![](./media/image6.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image6.png)
 
 7.  Repeat the same process to create the below given connections.
 
@@ -93,10 +93,10 @@ errors.
 
     - +++**Power Query Dataflows**+++
 
-- ![](./media/image7.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image7.png)
 
-  Note: If an authentication type appears during connection, leave it
-  unchanged and use the default value.
+    >[!note]**Note**: If an authentication type appears during connection, leave it
+    unchanged and use the default value.
 
 ## Task 2: Install SAP Setup Assistant from AppSource
 
@@ -104,43 +104,43 @@ errors.
     +++https://appsource.microsoft.com/en-us/product/dynamics-365/powerplatformtemplates.mpa_sapsetupassistant+++
     and click on the **Get it now**.
 
-- ![](./media/image8.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image8.png)
 
 2.  The Power platform admin center will open, select the **Dev One**
     Environment, select both the check box and click on **Install**.
     This process install **SAP Setup Assistance** in the Dev One
     Environment.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image9.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image9.png)
 
 3.  After Installation, go to the environment 🡪 Dev One 🡪 Dynamic 365
     apps page and confirm the installation status **SAP Setup
     Assistance**.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image10.png)
+    > ![A screenshot of a computer AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image10.png)
 
 ## Task 3: Update Connection Reference
 
 1.  Navigate to Power Apps, from the left navigation bar, select
     **Solutions** and open the **Default Solution.**
 
-> ![A screenshot of a software AI-generated content may be
-> incorrect.](./media/image11.png)
+    > ![A screenshot of a software AI-generated content may be
+    > incorrect.](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image11.png)
 
 2.  Select **Connection References** from the list of Objects in the
     left pane, and then select and open **SAP Setup Assistant –
     Dataverse**.
 
-- ![](./media/image12.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image12.png)
 
 3.  In Edit SAP Setup Assistant – Dataverse tab, click on the
     **Connection** dropdown and select **Admin Tenant Id**, in which we
     create the connection. After that, click on the **Save** button and
     again click on **Save Changes**.
 
-- ![](./media/image13.png)
+    > ![](https://raw.githubusercontent.com/technofocus-pte/modernzSAPdepth/refs/heads/main/Lab%203/media/image13.png)
 
 4.  Repeat the Same process for the following connections:
 
@@ -158,7 +158,7 @@ errors.
 
 ## Task 5: Use the SAP Setup Assistant
 
-You are now ready to use the **SAP Setup Assistant** canvas app,
+You are now ready to use the **SAP Setup Assistant** canvas app,
 installed as part of the SAP Setup Assistant solution.
 
 **Conclusion:**
