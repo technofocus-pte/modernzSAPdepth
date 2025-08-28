@@ -16,20 +16,20 @@ inventory of products. The current manual product management process,
 which involves searching for product information across various
 databases and generating reports, has led to several challenges:
 
-1.  **Time-Consuming Searches**: Employees manually search through
-    product data, often spending hours filtering through large datasets
-    to find relevant information.
+- **Time-Consuming Searches**: Employees manually search through
+  product data, often spending hours filtering through large datasets
+  to find relevant information.
 
-2.  **Inefficient Report Generation**: Manually generating detailed
-    reports from the gathered data leads to inconsistencies, delays, and
-    potential errors.
+- **Inefficient Report Generation**: Manually generating detailed
+  reports from the gathered data leads to inconsistencies, delays, and
+  potential errors.
 
 To enhance internal operational efficiency, Contoso Electronics will
 implement Power Automate Desktop to automate the product search and
 report generation process. The automation will reduce manual effort,
 increase accuracy, and improve overall productivity.
 
-**Estimated Time: 60 min**
+**Estimated Time**: 60 min
 
 ## Exercise 1: Create a flow and declare the variables
 
@@ -694,3 +694,4 @@ captured web UI elements to automate actions like searching for products
 by supplier. This exercise enhances participants’ automation skills and
 introduces them to streamlining SAP Fiori processes efficiently through
 Power Automate Desktop flows.
+
