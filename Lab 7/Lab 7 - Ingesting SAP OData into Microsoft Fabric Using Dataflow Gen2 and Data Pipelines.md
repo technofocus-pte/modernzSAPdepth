@@ -67,7 +67,7 @@ Microsoft Fabric using low-code tools.
 
 12. Select **Save & run.**
 
-    ![](https://github.com/technofocus-pte/modernzSAPdepth/blob/main/Lab%207/media/image31.png?raw=true)
+    > ![](./media/image31.png)
 
 ---
 
@@ -165,6 +165,7 @@ Lakehouse destination and a Data Pipeline to orchestrate and manage data
 ingestion from SAP into Fabric. This hands-on experience demonstrates
 how Microsoft Fabric simplifies enterprise data integration and
 processing using low-code tools for SAP and other enterprise systems.
+
 
 
 
