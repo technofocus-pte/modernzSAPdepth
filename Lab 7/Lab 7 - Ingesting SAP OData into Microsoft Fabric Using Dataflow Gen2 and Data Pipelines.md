@@ -55,7 +55,7 @@ Microsoft Fabric using low-code tools.
 
     - **Password**: Corresponding P-user password
   
-**Note** - Navigate to +++https://www.outlook.com/+++ and sign in with the admin tenant. Refer to the email from the sender SAP Universal ID Notification in your registered mailbox to check SAP P-user ID. For corresponding P-user password, refer to the password you have provided in the Task 1 of Lab 1.
+**Note:** Navigate to +++https://www.outlook.com/+++ and sign in with the admin tenant. Refer to the email from the sender SAP Universal ID Notification in your registered mailbox to check SAP P-user ID. For corresponding P-user password, refer to the password you have provided in the Task 1 of Lab 1.
 
 10.  Click **Next** to proceed.
 
@@ -165,5 +165,6 @@ Lakehouse destination and a Data Pipeline to orchestrate and manage data
 ingestion from SAP into Fabric. This hands-on experience demonstrates
 how Microsoft Fabric simplifies enterprise data integration and
 processing using low-code tools for SAP and other enterprise systems.
+
 
 
