@@ -107,7 +107,7 @@ Microsoft Fabric using low-code tools.
 
 9.  Turn off **Use automatic settings**, choose the **Append** option and click **Save settings**.
 
-    > ![]!IMAGE[ChooseDestinationSettings.jpg](instructions302579/ChooseDestinationSettings.jpg)
+    > ![](https://github.com/technofocus-pte/modernzSAPdepth/blob/main/Lab%207/media/image29.png?raw=true)
 
 10. Click **View** → **Diagram view** to visualize the flow and confirm
     the Lakehouse is connected.
@@ -116,7 +116,7 @@ Microsoft Fabric using low-code tools.
 
 11. Navigate to the **Home page** and select **Save & run**.
 
-    > ![]!IMAGE[Saveandrun.jpg](instructions302579/Saveandrun.jpg)
+    > ![](https://github.com/technofocus-pte/modernzSAPdepth/blob/main/Lab%207/media/image30.png?raw=true)
 
 ------------------------------------------------------------------------
 
@@ -165,6 +165,7 @@ Lakehouse destination and a Data Pipeline to orchestrate and manage data
 ingestion from SAP into Fabric. This hands-on experience demonstrates
 how Microsoft Fabric simplifies enterprise data integration and
 processing using low-code tools for SAP and other enterprise systems.
+
 
 
 
