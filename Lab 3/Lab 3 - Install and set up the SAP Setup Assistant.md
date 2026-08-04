@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 3 Install and set up the SAP Setup Assistant
+  description: The objective of this lab is to guide participants through the process of setting up critical connections within the Power Platform environment to ensure seamless SAP integration. Participants will configure connections, install the SAP Setup Assistant, manage connection references, activate cloud flows, and utilize the SAP Setup Assistant app to enable efficient SAP integration and automation for Contoso Electronics.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # Lab 3 Install and set up the SAP Setup Assistant
 
 ## Objective
