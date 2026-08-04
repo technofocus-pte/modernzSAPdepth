@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 7 - Ingesting SAP OData into Microsoft Fabric Using Dataflow Gen2 and Data Pipelines
+  description: In this lab, you will create a new workspace, and ingest SAP OData data into a Lakehouse using Dataflow Gen2. You will then build and run a data pipeline to orchestrate the flow of data from the SAP OData source into the Lakehouse. This lab helps you gain practical experience in setting up end-to-end data ingestion and transformation processes within Microsoft Fabric using low-code tools.
+  duration: 78 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Fabric
+---
+
 # Lab 7 - Ingesting SAP OData into Microsoft Fabric Using Dataflow Gen2 and Data Pipelines
 
 **Introduction:**
