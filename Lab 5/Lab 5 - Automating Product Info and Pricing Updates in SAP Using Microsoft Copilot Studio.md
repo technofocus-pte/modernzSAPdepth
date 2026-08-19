@@ -1,3 +1,15 @@
+---
+lab:
+  title: Lab 5 - Automating Product Info and Pricing Updates in SAP Using Microsoft Copilot Studio
+  description: In this lab, participants learned how to create an SAP account and set up a Gateway Demo System for accessing SAP. They were guided through configuring Microsoft Copilot Studio with generative AI capabilities to integrate SAP and automate product information retrieval and updates. Using an agent, participants created flows to fetch and update product data in SAP. The exercises highlighted key skills in connecting SAP with Microsoft technologies for streamlined business processes.
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Copilot
+    - Microsoft Copilot Studio
+---
+
 # Lab 5 - Automating Product Info and Pricing Updates in SAP Using Microsoft Copilot Studio
 
 ## Objective

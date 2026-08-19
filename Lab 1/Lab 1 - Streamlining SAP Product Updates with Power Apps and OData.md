@@ -1,3 +1,16 @@
+---
+lab:
+  title: Lab 1 - Streamlining SAP Product Updates with Power Apps and OData
+  description: In this lab, participants learned how to integrate SAP with Microsoft Power Platform by creating an SAP account and accessing the SAP Gateway Demo System. They configured a custom OData connector to link SAP data with Power Apps, built a Canvas App to display and update product information, and created a Power Automate flow to automate product updates. The lab concluded with testing the app and flow, verifying updates in the SAP Fiori Launchpad, and equipping participants with key skills for SAP-Power Platform integration.
+  duration: 45 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Power Platform
+    - Power Apps
+    - Power Automate
+---
+
 # Lab 1 - Streamlining SAP Product Updates with Power Apps and OData
 
 ## Objective

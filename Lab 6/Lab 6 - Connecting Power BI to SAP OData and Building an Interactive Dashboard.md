@@ -1,3 +1,15 @@
+---
+lab:
+  title: 'Lab 6: Connecting Power BI to SAP OData and Building an Interactive Dashboard'
+  description: In this lab, you will learn how to integrate Power BI with an SAP OData service to visualize business data interactively. You'll begin by launching and signing into Power BI Desktop using your Microsoft 365 Admin credentials. Next, you’ll connect to a public SAP OData service, load data into Power BI, and create visualizations such as slicers and cards to build a dynamic dashboard. This hands-on exercise enables you to understand how SAP data can be accessed, analyzed, and presented through Power BI for informed decision-making.
+  duration: 58 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Power BI
+---
+
 ## Lab 6: Connecting Power BI to SAP OData and Building an Interactive Dashboard
 
 **Introduction:**

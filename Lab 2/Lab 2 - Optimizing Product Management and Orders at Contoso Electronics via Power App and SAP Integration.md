@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 2 - Optimizing Product Management and Orders at Contoso Electronics via Power App and SAP Integration
+  description: In this lab, participants learned how to create an SAP OData connection within Power Apps, design a custom app (Contoso Product App), and integrate it with SAP data. They practised adding SAP OData data to the app, configuring a product gallery to display items, and building functionality to filter, search, and add items to a cart. Additionally, participants created an order summary screen, added customer information input fields, and implemented a submission process using Power Apps tables. Finally, they tested the app by searching and adding products to the cart, enhancing their skills in Power Apps and SAP integration.
+  duration: 45 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Apps
+---
+
 # Lab 2 - Optimizing Product Management and Orders at Contoso Electronics via Power App and SAP Integration
 
 ## Objective
